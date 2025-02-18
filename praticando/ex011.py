@@ -1,4 +1,5 @@
 print ('======DESAFIO 11======')
+#Faça um programa que leia um número inteiro e mostre a sua tabuada.
 n1=int(input('Qual número você quer saber a tabuada? '))
 n1x1=n1*1
 n1x2=n1*2
