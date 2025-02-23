@@ -1,0 +1,6 @@
+print ('Exercício - identificando primeiro e último nome da pessoa')
+var_strNome = (input('Qual o seu nome completo? ')).strip()
+n = var_strNome.split()
+print ('Muito prazer em te conhecer, {}'.format (n))
+print ('Primeiro nome: {}'.format(n[0]))
+print ('Último nome: {}'.format(n[len(n)-1]))
