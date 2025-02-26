@@ -1,0 +1,3 @@
+#elif - else if (senão se)
+#o elif pode ser usado quantas vezes quiser dentro do if
+# o else só pode ser usado uma única vez ou nenhuma vez
