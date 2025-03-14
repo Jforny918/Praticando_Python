@@ -10,13 +10,13 @@ for p in range (1, 5):
     sexo = str (input ("Sexo [M/F]: ")).strip().upper()
     print (" ")
     soma += idade
-    if p == 1 and sexo in "Mm":
+    if p == 1 and sexo == "M":
         hmaisvelho = idade
         nmaisvelho = nome
-    if sexo in "Mm" and idade > hmaisvelho:
+    if sexo == "M" and idade > hmaisvelho:
         hmaisvelho = idade
         nmaisvelho = nome 
-    if sexo in "Ff" and idade < 20:
+    if sexo == "F" and idade < 20:
         mulheres += 1
 mediaidade = soma / 4
 print ("A média de idade do grupo é de {} anos.".format(mediaidade))
