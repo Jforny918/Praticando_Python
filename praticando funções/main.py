@@ -25,3 +25,18 @@ def mostralinha (msg): #a função irá receber a variável msg
 #chamando a função
 mostralinha ("CURSO EM VÌDEO") #cada vez que chamar a função, irá imprimir a mensagem que foi passada para o parâmetro
 mostralinha ("APRENDENDO PYTHON")
+
+#FUNÇÕES PARTE 2
+#help () - função que mostra a documentação de uma função, ou seja, o que a função faz, como se fosse um manual.
+#help (print) - mostra a documentação da função print - então dentro do parênteses, você coloca o nome da função que deseja ver a documentação.
+
+#docstrings - são strings que ficam dentro de uma função e servem para documentar o que a função faz.
+#exemplo de docstring:
+def somar (a, b):
+    """Essa função recebe dois números e retorna a soma deles."""
+    return a + b
+#chamando a função
+print (somar(4, 5)) #irá retornar a soma de 4 e 5, que é 9
+
+
+
