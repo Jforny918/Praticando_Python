@@ -6,3 +6,5 @@ z = 5j
 print (type(z))
 b = True
 print (type(b))
+a = "Júlia"
+print (type(a))
